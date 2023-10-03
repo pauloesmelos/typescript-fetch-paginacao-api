@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="api, typescript, github, fetch, esnext, clientes">
+    <meta name="author" content="paulo eduardo">
+    <meta name="description" content="projeto consumindo endpoint get com typescript">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Lista de Clientes</title>
+</head>
+<body>
+    <section id="data">
+        <h2 aria-label="title">Usuários que interagiram com a API de Compras</h2>
+        <h2 data-type="subtitle">Estatísticas</h2>
+        <div class="total flex">
+            <h4>Total: </h4>
+            <span id="total"></span>
+        </div>
+        <div id="div-descricao" class="flex">
+            <div class="l1">
+                <div id="div-total" class="flex">
+        
+                </div>
+            </div>
+            <div class="l2">
+                <div id="outras-descs">
+    
+                </div>
+            </div>
+        </div>
+        <h2 data-type="subtitle">Dados</h2>
+        <div id="div-table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>ID</th>
+                        <th>Pagamento</th>
+                        <th>Valor</th>
+                        <th>Novo</th>
+                        <th>Status</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="./dist/index.js" type="module"></script>
+</body>
+</html>
